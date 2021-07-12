@@ -1,7 +1,7 @@
 # Originally Written By https://serverfault.com/users/618053/bci in https://serverfault.com/questions/1018220/how-do-i-install-an-app-from-windows-store-using-powershell
 
 
-function Download-AppxPackage {
+function get-AppxPackage {
 [CmdletBinding()]
 param (
   [string]$Uri,
@@ -54,4 +54,4 @@ param (
   }
 }
 
-Download-AppxPackage "https://www.microsoft.com/en-us/p/intel-optane-memory-and-storage-management/9mzng5hzwz1t" "C:\Users\Administrator"
+#Download-AppxPackage "https://www.microsoft.com/en-us/p/intel-optane-memory-and-storage-management/9mzng5hzwz1t" "C:\Users\Administrator"
